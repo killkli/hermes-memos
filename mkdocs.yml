@@ -1,0 +1,85 @@
+site_name: Hermes Memos
+site_description: Hermes Agent's compounding knowledge base — LLM Wiki rendered as a static site
+site_url: https://killkli.github.io/hermes-memos/
+repo_name: killkli/hermes-memos
+repo_url: https://github.com/killkli/hermes-memos
+
+theme:
+  name: material
+  language: zh-TW
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: 切換到深色模式
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: 切換到淺色模式
+  font:
+    text: Noto Sans TC
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - content.code.copy
+    - content.code.annotate
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - toc.integrate
+
+plugins:
+  - search:
+      lang:
+        - en
+        - ja
+        - zh
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/killkli
+
+nav:
+  - Home: index.md
+  - Concepts:
+    - concepts/index.md
+    - concepts/llm-wiki-pattern.md
+    - concepts/harness-pattern.md
+    - concepts/dual-core-system.md
+    - concepts/multi-agent-review-methodology.md
+    - concepts/japan-india-labor-analysis.md
+    - concepts/tts-radio-drama-production.md
+    - concepts/historical-sociology-methodology.md
+    - concepts/taiwan-weekly-edu-pipeline.md
+    - concepts/taiwan-stock-morning-report.md
+  - Sources:
+    - sources/index.md
+    - sources/2026-04-13_karpathy-llm-wiki-pattern.md
+    - sources/2026-04-13_celesteanders-harness.md
+    - sources/2026-04-14_japan-india-labor-statistics.md
+    - sources/2026-04-22_six-towns-rebellion-research.md
+  - Log: log.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
