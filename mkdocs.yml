@@ -28,7 +28,6 @@ theme:
     - navigation.instant.prefetch
     - navigation.tracking
     - content.code.copy
-    - content.code.annotate
     - navigation.sections
     - navigation.expand
     - search.highlight
@@ -60,12 +59,15 @@ nav:
     - concepts/historical-sociology-methodology.md
     - concepts/taiwan-weekly-edu-pipeline.md
     - concepts/taiwan-stock-morning-report.md
+    - concepts/northern-dynasties-six-towns-research.md
+    - concepts/news-intelligence-methodology.md
   - Sources:
     - sources/index.md
     - sources/2026-04-13_karpathy-llm-wiki-pattern.md
     - sources/2026-04-13_celesteanders-harness.md
     - sources/2026-04-14_japan-india-labor-statistics.md
     - sources/2026-04-22_six-towns-rebellion-research.md
+    - sources/2026-04-21_taiwan-news-2026-W17-analysis.md
   - Log: log.md
 
 markdown_extensions:
