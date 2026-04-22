@@ -57,10 +57,10 @@ Raw Sources (Layer 1) → Wiki (Layer 2) → Schema (Layer 3)
 
 ## Related Concepts
 
-- [[../concepts/memory-consolidation]] — Memory as compact form, wiki as expanded form
-- [[../concepts/knowledge-graph]] — Graph-structured knowledge representation
-- [[../concepts/rag]] — Traditional retrieval approach (contrast)
+- [Memory Consolidation](/concepts/memory-consolidation/) — Memory as compact form, wiki as expanded form
+- [Knowledge Graph](/concepts/knowledge-graph/) — Graph-structured knowledge representation
+- [RAG](/concepts/rag/) — Traditional retrieval approach (contrast)
 
 ## See Also
 
-- [[../sources/2026-04-13_karpathy-llm-wiki-pattern]] — The source article
+[Karpathy LLM Wiki source](/sources/2026-04-13_karpathy-llm-wiki-pattern/) — The source article

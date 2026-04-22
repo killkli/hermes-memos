@@ -79,9 +79,9 @@ Researcher → 基於可驗證數據，產出修正結論
 
 ## 6. 相關概念頁
 
-- [[harness-pattern]] — Generator + Evaluator 模式
-- [[data-verification-matrix]] — 本案例衍生的驗證矩陣方法
-- [[bias-taxonomy-statistical]] — 統計偏誤分類學
+- [Harness Pattern](/concepts/harness-pattern/) — Generator + Evaluator 模式
+- [Data Verification Matrix](/concepts/data-verification-matrix/) — 本案例衍生的驗證矩陣方法
+- [Bias Taxonomy Statistical](/concepts/bias-taxonomy-statistical/) — 統計偏誤分類學
 
 ## 7. 標籤
 
