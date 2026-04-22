@@ -4,8 +4,8 @@ site_url: https://killkli.github.io/hermes-memos/
 repo_name: killkli/hermes-memos
 repo_url: https://github.com/killkli/hermes-memos
 
-# Use directory_urls so mkdocs generates /concepts/page/ instead of /concepts/page.html
-# This avoids base URL issues with GitHub Pages subdirectory
+# use_directory_urls: generates /concepts/page/ (no .html) — GitHub Pages compatible
+# All links in markdown use absolute paths prefixed with /hermes-memos/ — no base_url needed
 use_directory_urls: true
 
 theme:

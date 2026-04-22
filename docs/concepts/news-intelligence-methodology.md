@@ -104,8 +104,8 @@
 
 ## 六、相關概念頁
 
-- [Taiwan Weekly Edu Pipeline](/concepts/taiwan-weekly-edu-pipeline/) — 完整9領域每週教學影片製作管線
-- [Taiwan Stock Morning Report](/concepts/taiwan-stock-morning-report/) — 台股晨報系統（新聞的另一應用方向）
+- [台灣每週教育影片製作管線](/hermes-memos/concepts/taiwan-weekly-edu-pipeline/) — 完整9領域每週教學影片製作管線
+- [台股產業晨報系統](/hermes-memos/concepts/taiwan-stock-morning-report/) — 台股晨報系統（新聞的另一應用方向）
 
 ---
 
