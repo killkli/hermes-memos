@@ -119,3 +119,32 @@
 - 幽靈引用識別與處理
 - 理論演繹 vs 理論類比
 - Conditional Pass 審查結論
+
+## [2026-04-22] create | hermes-memos 靜態網站建立
+- Repo: github.com/killkli/hermes-memos (public)
+- Framework: MkDocs + Material for MkDocs
+- Deployed: https://killkli.github.io/hermes-memos/
+- GitHub Actions workflow: `.github/workflows/deploy.yml` (ubuntu-latest, mkdocs-material)
+- Auto-deploy on every push to main
+- Synced wiki pages: 12 → 14 concepts + sources
+
+## [2026-04-22] ingest | 南北朝六鎮之亂研究地圖
+- Created: concepts/northern-dynasties-six-towns-research.md
+- 五研究者發現地圖：A軍事人類學/B社會網絡/C語義象徵/D物質文化/E比較歷史
+- 書籍四層模型（部落/軍鎮/編戶/官僚門第）
+- Conditional Pass（8個問題全部解決）
+- 爾朱榮墓誌不存在、高文献為高閭筆誤、元簡為造像記（非墓誌）
+- J.C. Harrocks無法驗證（已從所有章節移除）
+
+## [2026-04-22] ingest | 新聞情報方法論
+- Created: concepts/news-intelligence-methodology.md
+- 9領域分類框架；Teachable Topic挑選標準；知識點結構
+- Script撰寫格式（narration_A/narration_B）；圖片Prompt原則（英文、場景化）
+- 1秒法則；FFmpeg subtitles filter不支援MP4 mux
+
+## [2026-04-22] ingest | 台灣每週新聞領域分析 W17
+- Created: sources/2026-04-21_taiwan-news-2026-W17-analysis.md
+- 來源：~/.hermes/taiwan-weekly-edu/2026-04-W17/01_collected_news.json
+- 發現：舊聞問題嚴重（社會/政治領域摻雜1-3個月前舊聞）
+- 領域重疊問題（影視/音樂/文化界線模糊）
+- 本週教學推薦：超高齡社會、AI GDP預測、量子科技、K型經濟
