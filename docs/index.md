@@ -18,6 +18,8 @@
 - [[concepts/historical-sociology-methodology]] — 歷史社會學研究方法論；A/B/C級史料分級；幽靈引用識別與處理；Barth理論應用層次；分析性比較vs歷史性類比；墓誌偏差與循環性問題；個案代表性處理
 - [[concepts/taiwan-weekly-edu-pipeline]] — 台灣每週教育影片製作管線；9領域每週新聞→圖片→語音→影片→YouTube；目錄結構；FFmpeg字幕限制；YouTube上傳scope問題
 - [[concepts/taiwan-stock-morning-report]] — 台股產業晨報系統；7大產業並行蒐集；日期判定邏輯；HTTP 432/529錯誤處理；存檔路徑注意；cron自動化
+- [[concepts/northern-dynasties-six-towns-research]] — 南北朝六鎮之亂研究地圖；五研究者發現地圖；Conditional Pass結論；書籍四層模型；墓誌方法論極限
+- [[concepts/news-intelligence-methodology]] — 新聞情報方法論；9領域分類框架；Teachable Topic挑選標準；知識點結構；Script撰寫格式；圖片Prompt原則
 
 ## Comparisons
 <!-- Side-by-side analyses -->
@@ -32,6 +34,7 @@
 - [[sources/2026-04-13_celesteanders-harness]] — Celeste Anderson's harness repo (Generator + Evaluator pattern)
 - [[sources/2026-04-14_japan-india-labor-statistics]] — 在日印度勞動力原始資料彙編；法務省/厚勞省統計；特定技能國籍分佈；多代理人審查發現（2026-04-14）
 - [[sources/2026-04-22_six-towns-rebellion-research]] — 六鎮之亂動員機制研究；隱形部落理論；五研究者協作流程；Conditional Pass審查結論（2026-04-22）
+- [[sources/2026-04-21_taiwan-news-2026-W17-analysis]] — 台灣每週新聞領域分析；2026-W17九領域內容觀察；舊聞問題；教學主題推薦（2026-04-22）
 
 ## 產業分析
 
