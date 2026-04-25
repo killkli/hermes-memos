@@ -372,6 +372,56 @@ nav:
     - YouTube BTC M2 Analysis: sources/youtube-btc-m2-analysis-2026-04-22.md
     - Econ Analysis BTC M2 Critique: sources/econ-analysis-btc-m2-critique-2026-04-22.md
     - 魏晉南北朝史 甘懷真 Source: sources/ntu-wei-jin-history-kan-huaijen-2026-04-25.md
+    - LLM Wiki Pattern: concepts/llm-wiki-pattern.md
+    - Harness Pattern: concepts/harness-pattern.md
+    - Dual-Core Agent System: concepts/dual-core-system.md
+    - Agent Environments: concepts/agent-environments.md
+    - Skill vs Codeblock: concepts/skill-vs-codeblock.md
+    - Cron Job Architecture: concepts/cron-job-architecture.md
+    - OAuth Integration: concepts/oauth-integration.md
+    - YouTube Upload Patterns: concepts/youtube-upload-patterns.md
+    - Taiwan Daily Music Pipeline: concepts/taiwan-daily-music-pipeline.md
+    - Taiwan Weekly Edu Pipeline: concepts/taiwan-weekly-edu-pipeline.md
+    - Taiwan Stock Morning Report: concepts/taiwan-stock-morning-report.md
+    - Multi-Agent Stock Analysis: concepts/multi-agent-stock-analysis-system.md
+    - Engineering Investment Research: concepts/engineering-investment-research-report.md
+    - Multi-Agent Review Methodology: concepts/multi-agent-review-methodology.md
+    - Japan-India Labor Analysis: concepts/japan-india-labor-analysis.md
+    - Historical Sociology Methodology: concepts/historical-sociology-methodology.md
+    - Six Towns Rebellion Research: concepts/northern-dynasties-six-towns-research.md
+    - TTS Radio Drama Production: concepts/tts-radio-drama-production.md
+    - LinuxKit Bootable USB: concepts/linuxkit-bootable-usb.md
+    - News Intelligence Methodology: concepts/news-intelligence-methodology.md
+    - Reflection Session 2026-04-16: concepts/reflection-session-2026-04-16.md
+    - Bitcoin M2 Monetary Theory: concepts/bitcoin-m2-monetary-theory.md
+    - Exam Question Bank QA System: concepts/exam-question-bank-qa-system.md
+    - 魏晉南北朝歷史學方法論: concepts/wei-jin-historical-methodology.md
+    - 沒有單一漢族理論: concepts/no-single-han-identity.md
+    - 專業農民的發明: concepts/invention-of-professional-farmer.md
+    - 東亞大移民: concepts/east-asian-great-migration.md
+    - 五胡亂華新解: concepts/five-hu-rebellion-reframed.md
+    - 胡族國家體制與佛教王權: concepts/non-chinese-state-systems.md
+    - 晉室南渡與僑吳姓: concepts/jin-southward-migration.md
+    - 北魏孝文帝改革的多元解釋: concepts/northern-wei-xiaowen-reforms.md
+    - 後三國時代與關隴集團: concepts/post-three-kingdoms-guanlong.md
+    - 隋唐帝國誕生與科舉演變: concepts/sui-tang-imperial-birth.md
+    - 桃花源與基層社會: concepts/peach-blossom-spring-grassroots.md
+    - 儒教國家與佛教: concepts/confucian-state-buddhism.md
+    - 東亞世界的形成: concepts/east-asian-world-formation.md
+    - LLM Wiki Pattern Source: sources/2026-04-13_karpathy-llm-wiki-pattern.md
+    - Harness Pattern Source: sources/2026-04-13_celesteanders-harness.md
+    - Japan-India Labor Statistics: sources/2026-04-14_japan-india-labor-statistics.md
+    - Six Towns Rebellion Research: sources/2026-04-22_six-towns-rebellion-research.md
+    - Taiwan Weekly News W17: sources/2026-04-21_taiwan-news-2026-W17-analysis.md
+    - Taiwan Weekly News W16: sources/2026-04-23_taiwan-news-2026-W16-analysis.md
+    - Exam Question Bank Sessions: sources/exam-question-bank-sessions-2026-04-24.md
+    - Exam Question Bank Math: sources/exam-question-bank-math-2026-04-25.md
+    - Cron Job Debug Session: sources/cron-job-debug-session-2026-04-18.md
+    - LinuxKit USB Build Session: sources/linuxkit-usb-build-session-2026-04-18.md
+    - Taiwan Daily Music Cron: sources/taiwan-daily-music-cron-2026-04-22.md
+    - YouTube BTC M2 Analysis: sources/youtube-btc-m2-analysis-2026-04-22.md
+    - Econ Analysis BTC M2 Critique: sources/econ-analysis-btc-m2-critique-2026-04-22.md
+    - 魏晉南北朝史 甘懷真 Source: sources/ntu-wei-jin-history-kan-huaijen-2026-04-25.md
   - Log: log.md
 
 markdown_extensions:
