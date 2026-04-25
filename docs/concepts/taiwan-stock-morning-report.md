@@ -1,4 +1,12 @@
-# 台股產業晨報系統
+---
+title: 台股產業晨報系統
+created: 2026-04-13
+updated: 2026-04-22
+type: concept
+tags: []
+sources: []
+---
+
 
 **創建日期**：2026-04-22
 **相關技能**：`tw-stock-morning-report`

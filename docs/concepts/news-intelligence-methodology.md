@@ -1,6 +1,15 @@
-# 新聞情報方法論：從 Raw News 到 Teaching Material
+---
+title: 新聞情報方法論：從 Raw News 到 Teaching Material
+created: 2026-04-13
+updated: 2026-04-22
+type: concept
+tags: []
+sources: []
+---
+
 
 **創建日期**：2026-04-22
+**更新日期**：2026-04-23（整合W16實戰觀察）
 **應用場景**：台灣每週教育影片製作（tw-weekly-edu-pipeline）| 台股晨報新聞分析
 
 ---
@@ -57,6 +66,24 @@
         └── 延伸問題（1個）
 ```
 
+### 3.3 W16 實戰觀察：三領域空洞化
+
+並非所有9個領域每週都有深度新聞。W16 觀察到：
+
+| 領域 | 空洞化程度 | 典型情況 | 建議 |
+|------|-----------|---------|------|
+| **影視** | 高度空洞 | 全週都是娛樂緋聞/演唱會，無產業政策或創作深度 | 跨領域找議題，或降低該領域集數比重 |
+| **音樂** | 高度空洞 | 全週都是演唱會消息，無產業趨勢或創作報導 | 同上 |
+| **教育** | 中度空洞 | 所有項目均與科技/文化重疊，無獨立政策 | 以科技/文化領域的新聞為主，教育為輔 |
+
+### 3.4 新聞來源品質分級
+
+| 來源 | 等級 | 適用場景 |
+|------|------|---------|
+| 中央社（CNA） | ⭐⭐⭐ 最佳 | 正式教學影片首選，時間乾淨無舊聞 |
+| 關鍵評論網、蕃新聞 | ⭐⭐ 良好 | 補充觀點，須注意立場 |
+| Aggregator（Yahoo、ETtoday） | ⭐ 可用但需核查 | 常有舊聞重複推送，時間戳混亂，須人工核查 |
+
 ---
 
 ## 四、Script 撰寫方法論
@@ -104,8 +131,8 @@
 
 ## 六、相關概念頁
 
-- [台灣每週教育影片製作管線](/hermes-memos/concepts/taiwan-weekly-edu-pipeline/) — 完整9領域每週教學影片製作管線
-- [台股產業晨報系統](/hermes-memos/concepts/taiwan-stock-morning-report/) — 台股晨報系統（新聞的另一應用方向）
+- [Taiwan Weekly Edu Pipeline](/hermes-memos/concepts/taiwan-weekly-edu-pipeline/) — 完整9領域每週教學影片製作管線
+- [Taiwan Stock Morning Report](/hermes-memos/concepts/taiwan-stock-morning-report/) — 台股晨報系統（新聞的另一應用方向）
 
 ---
 

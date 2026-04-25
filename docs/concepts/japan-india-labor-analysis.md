@@ -1,4 +1,12 @@
-# 在日印度勞動力結構分析
+---
+title: 在日印度勞動力結構分析
+created: 2026-04-13
+updated: 2026-04-22
+type: concept
+tags: []
+sources: []
+---
+
 
 **概念層級：** 分析案例 + 方法論反思
 **入庫日期：** 2026-04-14
@@ -80,8 +88,8 @@ Researcher → 基於可驗證數據，產出修正結論
 ## 6. 相關概念頁
 
 - [Harness Pattern](/hermes-memos/concepts/harness-pattern/) — Generator + Evaluator 模式
-- [[data-verification-matrix]] — 本案例衍生的驗證矩陣方法
-- [[bias-taxonomy-statistical]] — 統計偏誤分類學
+- [[data-verification-matrix]] — 本案例衍生的驗證矩陣方法 (planned page)
+- [[bias-taxonomy-statistical]] — 統計偏誤分類學 (planned page)
 
 ## 7. 標籤
 

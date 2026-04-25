@@ -1,8 +1,17 @@
-# 台灣每週教育影片製作管線
+---
+title: 台灣每週教育影片製作管線
+created: 2026-04-13
+updated: 2026-04-22
+type: concept
+tags: []
+sources: []
+---
+
 
 **創建日期**：2026-04-22
-**更新日期**：2026-04-22（整合完整知識）
+**更新日期**：2026-04-23（整合W16實戰經驗）
 **相關技能**：tw-news-collector, teachable-topic-picker, teaching-script-writer, minimax-image-generator, gradio-tts-dialogue-generator, video-compositor, youtube-upload
+**實戰教訓來源**：`[Taiwan Weekly News W16](/hermes-memos/sources/2026-04-23_taiwan-news-2026-W16-analysis/)`
 
 ---
 
@@ -200,3 +209,61 @@ python3 ~/.hermes/youtube/authorize.py --channel-id @UCnm5F5bej83I7l3yDL6y_-A --
 | FFmpeg subtitles filter 不存在 | ffmpeg build 未含 libass | 產出 .srt sidecar 檔 |
 | MP4 mux SRT 失敗 | MP4 容器不支援 SRT 字幕流 | 改用 MKV 或獨立 SRT 檔 |
 | YouTube 字幕上傳 403 | scope 設為 `youtube.force-ssl-auth` | 改用 `youtube.force-ssl`，重新授權 |
+
+---
+
+## W16 實戰教訓（2026-04-23）
+
+### 1. SRT 字幕 bug：參數順序錯誤
+
+**問題**：`make_srt(narration_A, speaker, duration, srt_path)` 第二參數傳入的是 `speaker`（標籤文字）而非 `narration_B`（實際台詞），導致 B 角色字幕只有標籤沒有內容。
+
+**修復**：正確順序 `make_srt(narration_A, narration_B, duration, srt_path)`，並用 ffprobe 取真實 OGG 音訊 duration，而非自己計算。
+
+### 2. YouTube API quota 耗盡時的處理原則
+
+> **字幕永遠不燒進 MP4**。保持現狀，等待 API quota 重置或手動上傳。
+
+| 錯誤 | 原因 | 解法 |
+|------|------|------|
+| 403 `quotaExceeded` | YouTube 每日配額用盡 | 等午夜 PST 重置；或 YouTube Studio 手動上傳 SRT |
+| 409 `conflict` | 已有同語言字幕 | 先刪除舊字幕再上傳 |
+| 403 其他 | OAuth token 過期 | 刷新 token |
+
+**FFmpeg mov_text 嵌入式字幕（不改編碼）**：`ffmpeg -i input.mp4 -f srt -i input.srt -c:v copy -c:a copy -c:s mov_text output.mp4` — 這是備援手段，不是標準流程。
+
+### 3. 三個國中生代理人投票的設計
+
+使用 delegate_task 並行產生三位虛構國中生的新聞投票：
+- 阿偉（活潑型）：喜歡有趣、有爆點的新聞
+- 小美（關心社會型）：關注公平、正義相關新聞
+- 小杰（理性型）：喜歡有數據、有邏輯的新聞
+
+**投票邏輯**：每領域由得票最多的新聞當選；平票時由阿偉當選（活潑型代理人的偏好優先）。
+
+### 4. TTS 音色：新聞廣播 vs 一般角色的區分
+
+| 用途 | 音色檔案 |
+|------|----------|
+| 新聞廣播（老師A，男聲） | `~/.hermes/taiwan-weekly-edu/characters/teacher_a_ref.wav` |
+| 新聞廣播（助理B，女聲） | `~/.hermes/taiwan-weekly-edu/characters/teacher_b_ref.wav` |
+| 一般廣播劇/有聲書 | `~/.hermes/tts-project/characters/`（不同目錄） |
+
+**注意**：兩組音色用途不同，給錯音色會導致聲音年齡/風格不符。
+
+### 5. 新聞來源品質差異
+
+| 來源類型 | 問題 | 實例 |
+|----------|------|------|
+| 中央社（CNA） | ✅ 時間乾淨無舊聞 | W16 全部 04/19–04/23 |
+| Aggregator 網站 | ❌ 舊聞重複推送、時間戳混亂 | W17 社會/政治有大量1-3個月前舊聞 |
+
+**實務建議**：新聞蒐集以中央社為主，Aggregator 僅作為補充參考。
+
+### 6. 影視/音樂/教育三領域的空洞化問題
+
+- **影視**：本週全是娛樂緋聞，無電影產業政策或創作議題
+- **音樂**：本週全是演唱會消息，無產業趨勢或創作深度報導
+- **教育**：所有項目均與科技/文化重疊，無獨立教育政策
+
+**影響**：這三個領域的新聞教學潛力較低，需要更主動地從其他領域的新聞中挖掘教材。

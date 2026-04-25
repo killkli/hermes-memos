@@ -93,4 +93,4 @@ Plans in `.hermes/tasks/plans/{slug}.json`:
 ## Related Concepts
 
 - [LLM Wiki Pattern](/hermes-memos/concepts/llm-wiki-pattern/) — Knowledge management (complementary)
-- [[../concepts/agentic-workflows]] — General agent workflow patterns
+- [[agentic-workflows]] — General agent workflow patterns (planned page)

@@ -1,4 +1,12 @@
-# 南北朝六鎮之亂研究地圖
+---
+title: 南北朝六鎮之亂研究地圖
+created: 2026-04-13
+updated: 2026-04-22
+type: concept
+tags: []
+sources: []
+---
+
 
 **創建日期**：2026-04-22
 **專案**：`~/.hermes/history-book/`（南北朝書籍專案）

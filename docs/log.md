@@ -5,10 +5,42 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
-## [YYYY-MM-DD] create | Wiki initialized
+## [2026-04-25] ingest | 臺大開放式課程 魏晉南北朝史（甘懷真）15集逐字稿
 
-- Domain: Unspecified (to be defined)
-- Structure created with index.md, log.md, sources/, entities/, concepts/, synthesis/
+- Source: ~/.hermes/ntu-wei-jin-history/transcripts/ (Ep001~Ep015 raw txt)
+- Created: sources/ntu-wei-jin-history-kan-huaijen-2026-04-25.md (source page)
+- Created: concepts/wei-jin-historical-methodology.md (歷史學方法論，Ep01)
+- Created: concepts/no-single-han-identity.md (沒有單一漢族，Ep01/09/10)
+- Created: concepts/invention-of-professional-farmer.md (專業農民發明，Ep01/05/12)
+- Created: concepts/east-asian-great-migration.md (東亞大移民，Ep03/04/06)
+- Created: concepts/five-hu-rebellion-reframed.md (五胡亂華新解，Ep06)
+- Created: concepts/non-chinese-state-systems.md (胡族國家體制，Ep07)
+- Created: concepts/jin-southward-migration.md (晉室南渡，Ep08)
+- Created: concepts/northern-wei-xiaowen-reforms.md (孝文帝改革，Ep09)
+- Created: concepts/post-three-kingdoms-guanlong.md (後三國與關隴，Ep10)
+- Created: concepts/sui-tang-imperial-birth.md (隋唐帝國與科舉，Ep11/15)
+- Created: concepts/peach-blossom-spring-grassroots.md (桃花源與基層，Ep12)
+- Created: concepts/confucian-state-buddhism.md (儒教與佛教，Ep13)
+- Created: concepts/east-asian-world-formation.md (東亞世界形成，Ep14)
+- Updated: index.md (新增14個entry，page count 27→41)
+- Core framework: 內亞視角、去黃河文明化、胡族主體性、多中心東亞世界
+- Key corrections incorporated: 科舉真正成熟在宋代(Ep11)、五胡主體性(Ep06)、編戶齊民(Ep05)
+
+## [2026-04-25] ingest | 教育會考數學科題庫建立 + LaTeX 驗證
+- Source: session (math-exam-guardian repo + KaTeX validation)
+- Created: sources/exam-question-bank-math-2026-04-25.md
+- Updated: concepts/exam-question-bank-qa-system.md (新增數學科差異：KaTeX pipeline、常見錯誤類型、為何不用regex、部署架構)
+- Updated: index.md (新增 source entry, page count 25→27)
+- Skill created: latex-render-pipeline (data-science，含 check_latex.js)
+- Key findings: 9 KaTeX errors fixed; \\  vs \\, in \left(); \x08 control char; double backslash; build_type=legacy for GitHub Pages without workflow token
+
+## [2026-04-23] ingest | 台灣每週新聞 W16 + W16實戰教訓
+- Source: ~/.hermes/taiwan-weekly-edu/2026-04-W16/01_collected_news.json (72則中央社新聞, 2026-04-19~04-23)
+- Created: sources/2026-04-23_taiwan-news-2026-W16-analysis.md
+- Updated: concepts/taiwan-weekly-edu-pipeline.md (W16實戰教訓：SRT參數順序bug、quota耗盡原則、三領域空洞化、色音色區分、來源品質)
+- Updated: concepts/news-intelligence-methodology.md (W16觀察：三領域空洞化、來源品質分級)
+- Updated: index.md (新增W16 source entry, 更新pipeline/方法論描述)
+- Skill created: tw-weekly-edu-w16-lessons (媒體技能，含完整W16實戰知識)
 
 ## [2026-04-13] ingest | LLM Wiki Pattern (karpathy)
 - Source: karpathy's gist on LLM Wiki pattern
@@ -148,3 +180,22 @@
 - 發現：舊聞問題嚴重（社會/政治領域摻雜1-3個月前舊聞）
 - 領域重疊問題（影視/音樂/文化界線模糊）
 - 本週教學推薦：超高齡社會、AI GDP預測、量子科技、K型經濟
+
+## [2026-04-22] merge | Wiki integration from external source
+- Merged external wiki (25 files) into current wiki
+- Added 10 new concepts: agent-environments, cron-job-architecture, engineering-investment-research-report, linuxkit-bootable-usb, multi-agent-stock-analysis-system, oauth-integration, reflection-session-2026-04-16, skill-vs-codeblock, taiwan-daily-music-pipeline, youtube-upload-patterns
+- Added SCHEMA.md (was completely missing — core structural gap)
+- Added entities/john-chen.md (conflict resolved: existing empty file replaced with full content)
+- Added queries/ directory (was missing structure)
+- Added 4 raw/articles: cron-youtube-upload, cron-job-debug, linuxkit-usb-build, taiwan-daily-music-cron
+- Updated index.md: rebuilt with merged content, 12 → 22 pages
+- Updated log.md: appended integration record
+- Existing unique content preserved: 12 concepts + sources/
+- Lint pending: will run full cross-link verification
+
+## [2026-04-22] ingest | 比特幣 M2 貨幣理論批判研究
+- Ingested 2 raw sources + 1 concept page from BTC M2 research session
+- Sources: youtube-btc-m2-analysis-2026-04-22 (區塊鏈日記), econ-analysis-btc-m2-critique-2026-04-22 (經濟學批判)
+- Concept: bitcoin-m2-monetary-theory — 奧派敘事 vs 經濟學批判對照；鮑莫爾成本病；機構集中化矛盾；選美理論
+- Key finding: BTC 2022 通膨高峰期暴跌 78%，比特幣避險屬性學術證據薄弱
+- Added to Finance & Economics section in index
