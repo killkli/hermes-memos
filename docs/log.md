@@ -149,7 +149,18 @@
 ### 方法論創新
 - A/B/C級史料分級制度
 - 幽靈引用識別與處理
-- 理論演繹 vs 理論類比
+## [2026-04-28] ingest | LLM Wiki 更新（4個新頁面）
+
+- **OmniVoice TTS Migration**：VoxCPM → OmniVoice 兩階段架構、profile schema、text_preprocess 五階段管線
+- **NTU OmniVoice 自主產線 v4**：OmniVoice 自主產線完整運行、CH01 試做版發現規格缺口（每 EP 應有 5 個 CH）、圖片→TTS→MP4→SRT 全流程成功、但 Ep001/02 各只有 CH01（需補完 CH02-CH05）
+- **TTS 語音處理新規則**：Gradio ref_denoise=True 禁用、48kHz 硬性要求、圓括號語氣描述處理、ffmpeg concat 音頻流丟失
+- **Threads 登入與內容瀏覽**：Threads 搜尋頁死鎖陷阱（Meta 防機器人）、Instagram OAuth 登入、內容過濾偏好（美食+溫馨新聞、雲嘉彰）、threads-login 技能建立
+
+### OmniVoice 遷移核心發現
+- Voice Design → OmniVoice Clone 兩階段架構確認
+- 失敗音色立即刪除原則
+- 每 EP = 5 CH（每 CH 5 scenes）= 25 scenes × 2 characters = 50 軌 TTS
+- CH02-CH05 尚未補完是已知缺口
 - Conditional Pass 審查結論
 
 ## [2026-04-22] create | hermes-memos 靜態網站建立

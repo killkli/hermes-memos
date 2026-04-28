@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-25 | Total pages: 41
+> Last updated: 2026-04-28 | Total pages: 45
 
 ## Entities
 
@@ -61,6 +61,10 @@
 ### Media Production
 
 - [TTS Radio Drama Production](/hermes-memos/concepts/tts-radio-drama-production/) — TTS廣播劇完整流程：腳本格式、ref_wav音色建立、批次生成、後製管線（loudnorm+acompressor）；英文內容不用OpenCC；圓括號格式不相容問題
+- [OmniVoice TTS 本地遷移](/hermes-memos/concepts/omnivoice-tts-migration/) — OmniVoice TTS 本地遷移（2026-04-28）；VoxCPM → OmniVoice 兩階段架構；失敗音色處理原則
+- [NTU OmniVoice 自主產線 v4](/hermes-memos/concepts/ntu-omnivoice-full-production-run/) — NTU OmniVoice 自主產線 v4（2026-04-28）；Ep001/02 CH01試做版發現規格缺口（每EP應有5CH）
+- [TTS 語音處理新規則](/hermes-memos/concepts/tts-voice-processing-rules/) — TTS語音處理新規則（2026-04-28）；ref_denoise禁用、48kHz硬性要求、圓括號語氣描述處理、ffmpeg concat音頻流丟失
+- [Threads 登入與內容瀏覽](/hermes-memos/concepts/threads-login-browsing/) — Threads登入與內容瀏覽（2026-04-28）；搜尋頁死鎖陷阱、雲嘉彰美食/溫馨新聞過濾偏好
 
 ### Infrastructure
 
