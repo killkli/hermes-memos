@@ -149,6 +149,36 @@
 ### 方法論創新
 - A/B/C級史料分級制度
 - 幽靈引用識別與處理
+## [2026-04-29] ingest | LLM Wiki 更新（3 個新頁面 + 2 個 source + 2 個更新）
+
+### 新增概念頁
+- **NTU Ep002 製作與音頻修復**：24kHz 降頻 bug 根因分析、48kHz 硬性要求確立、Ep002 重建上傳（ID: A02MHEO5qg4）、330MB 清理、雙層字幕策略
+- **NTU Ep003 製作啟動**：首個 OmniVoice 全流程集數、Style Bible 導入、5 章腳本完成、Gradio Server 統一、角色音色生成、目錄標準化
+- **BOYO 英文文法教學影片專案**：三冊教材改編、I-1 拆分 4 課（名詞冠詞/代名詞所有格/Be動詞/指示詞）、校園故事+闖關敘事框架、Teacher/Lisa/Wendy 角色、教材章節拆分
+
+### 新增 Source 頁
+- `ntu-history-ep002-ep003-sessions-2026-04-27-28.md` — 6 個 sessions 摘要
+- `boyo-english-grammar-sessions-2026-04-28-29.md` — BOYO 專案 sessions
+
+### 更新既有頁面
+- `omnivoice-tts-migration.md` — 新增遷移執行進展（規劃→架構重整→生產標準化三階段）
+- `tts-voice-processing-rules.md` — 新增交叉引用至 Ep002/Ep003/BOYO
+
+### Index 更新
+- 總頁面數：45 → 49
+- 新增 Media Production 項目 ×3
+- 新增 Sources 項目 ×2
+
+### 消化 Sessions 範圍
+| Session | 日期 | 主題 |
+|---------|------|------|
+| `20260427_053216` | 4/27 上午 | Ep002 音頻修復 |
+| `20260427_121224` | 4/27 下午 | NTU 架構重整 |
+| `20260427_175003` | 4/27 晚上 | OmniVoice 遷移規劃 |
+| `20260428_204649` | 4/28 晚上 | Ep003 製作啟動 |
+| `20260428_222629` | 4/28-29 | BOYO 專案啟動 |
+| `20260429_144906` | 4/29 | BOYO 教材拆分 |
+
 ## [2026-04-28] ingest | LLM Wiki 更新（4個新頁面）
 
 - **OmniVoice TTS Migration**：VoxCPM → OmniVoice 兩階段架構、profile schema、text_preprocess 五階段管線

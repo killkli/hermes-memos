@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-28 | Total pages: 45
+> Last updated: 2026-04-29 | Total pages: 49
 
 ## Entities
 
@@ -65,6 +65,9 @@
 - [NTU OmniVoice 自主產線 v4](/hermes-memos/concepts/ntu-omnivoice-full-production-run/) — NTU OmniVoice 自主產線 v4（2026-04-28）；Ep001/02 CH01試做版發現規格缺口（每EP應有5CH）
 - [TTS 語音處理新規則](/hermes-memos/concepts/tts-voice-processing-rules/) — TTS語音處理新規則（2026-04-28）；ref_denoise禁用、48kHz硬性要求、圓括號語氣描述處理、ffmpeg concat音頻流丟失
 - [Threads 登入與內容瀏覽](/hermes-memos/concepts/threads-login-browsing/) — Threads登入與內容瀏覽（2026-04-28）；搜尋頁死鎖陷阱、雲嘉彰美食/溫馨新聞過濾偏好
+- [NTU Ep002 製作與音頻修復](/hermes-memos/concepts/ntu-history-ep002-production/) — NTU Ep002 製作與音頻修復（2026-04-27）；24kHz降頻bug根因分析、48kHz硬性要求確立、330MB清理、YouTube ID A02MHEO5qg4
+- [NTU Ep003 製作啟動](/hermes-memos/concepts/ntu-history-ep003-production/) — NTU Ep003 製作啟動（2026-04-28）；首個OmniVoice全流程集數、Style Bible導入、5章腳本完成、架構重整與Gradio Server統一
+- [BOYO 英文文法教學影片專案](/hermes-memos/concepts/boyo-english-grammar-video-project/) — BOYO英文文法教學影片專案（2026-04-28啟動）；三冊教材改編、I-1拆分4課、校園故事+闖關敘事、OmniVoice TTS
 
 ### Infrastructure
 
@@ -108,6 +111,8 @@
 - [Taiwan Daily Music Cron](/hermes-memos/sources/taiwan-daily-music-cron-2026-04-22/) — Session: full pipeline success, MiniMax hex format, .env reading
 - [YouTube BTC M2 Analysis](/hermes-memos/sources/youtube-btc-m2-analysis-2026-04-22/) — YouTube 影片：比特幣對抗 M2 貨幣貶值論述；區塊鏈日記 25 分鐘批判分析
 - [Econ Analysis BTC M2 Critique](/hermes-memos/sources/econ-analysis-btc-m2-critique-2026-04-22/) — 經濟學批判：M2–通膨關係弱化、比特幣避險屬性消失、機構集中化矛盾、鮑莫爾成本病
+- [NTU Ep002/Ep003 Sessions](/hermes-memos/sources/ntu-history-ep002-ep003-sessions-2026-04-27-28/) — NTU Ep002/Ep003 + OmniVoice遷移 sessions（04-27~04-29）；Ep002音頻修復、架構重整、OmniVoice規劃、Ep003啟動
+- [BOYO 英文文法 Sessions](/hermes-memos/sources/boyo-english-grammar-sessions-2026-04-28-29/) — BOYO英文文法影片專案 sessions（04-28~04-29）；專案啟動、課程拆分、教材章節拆分
 
 ## 產業分析
 

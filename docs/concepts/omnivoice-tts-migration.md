@@ -1,10 +1,12 @@
 ---
 title: OmniVoice TTS 本地遷移
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-29
 type: concept
 tags: [tts, omnivoice, voxcpm, migration]
-sources: [k2-fsa/OmniVoice GitHub, 2026-04-28 session]
+sources:
+  - k2-fsa/OmniVoice GitHub
+  - sources/ntu-history-ep002-ep003-sessions-2026-04-27-28.md
 ---
 
 ## 概述
@@ -96,10 +98,36 @@ Format:
 
 ---
 
-## 關聯技能
+## 遷移執行進展（2026-04-27 ~ 04-29）
 
-- [[omnivoice-local-tts-migration]] — 本地 OmniVoice 遷移技能（待建立）
-- [[omnivoice-tts-production-pipeline]] — OmniVoice 生產總管線（待建立）
+### 規劃階段（4/27 晚上）
+- 完整研究 OmniVoice GitHub repo
+- 確認 API：`model.generate(text=..., ref_audio=..., ref_text=...)` + `instruct` 參數
+- 環境驗證：macOS 15.3, Apple M4, Python 3.9.6, `uv` package manager
+- 決定保留手動分句邏輯（防止 speed-up/buzzing）
+
+### 架構重整（4/27 下午）
+- 統一所有 TTS 走 Gradio Server (localhost:8808)
+- 禁止 direct call VoxCPMDemo class
+- 生成 teacher_a/b_ref.wav（平穩旁白台詞 + ffmpeg 後處理）
+
+### 生產標準化（4/28）
+- Ep003 成為第一個從頭使用 OmniVoice 標準產線的集數
+- 批次 TTS 走 tmux 背景（`run_omnivoice_tmux.sh`）
+- 教學語速預設 0.75
+- text_preprocess 加入 OpenCC t2s 強制轉換
+
+### 尚未完成
+- CH02-CH05 補完（NTU Ep001/002 目前只有 CH01）
+- BOYO 英文文法專案正式 TTS 批次
+
+---
+
+## 關聯頁面
+
 - [TTS 語音處理新規則](/hermes-memos/concepts/tts-voice-processing-rules/) — 語音處理新規則
-- [[ntu-ep001-video-production-v4]] — NTU 影片 v4 生產經驗
+- [NTU Ep002 製作與音頻修復](/hermes-memos/concepts/ntu-history-ep002-production/) — Ep002 音頻修復
+- [NTU Ep003 製作啟動](/hermes-memos/concepts/ntu-history-ep003-production/) — Ep003 首個 OmniVoice 全流程集數
+- [NTU OmniVoice 自主產線 v4](/hermes-memos/concepts/ntu-omnivoice-full-production-run/) — NTU 自主產線
+- [BOYO 英文文法教學影片專案](/hermes-memos/concepts/boyo-english-grammar-video-project/) — BOYO 專案（共用 TTS 架構）
 

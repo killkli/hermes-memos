@@ -1,10 +1,11 @@
 ---
 title: TTS 語音處理新規則（2026-04-28 更新）
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-29
 type: concept
 tags: [tts, voxcpm, omnivoice, ffmpeg, audio-processing]
-sources: [2026-04-28 OmniVoice production sessions]
+sources:
+  - sources/ntu-history-ep002-ep003-sessions-2026-04-27-28.md
 ---
 
 ## 概述
@@ -94,5 +95,8 @@ concat demuxer 要求所有 clip 有一緋的音頻流配置。如果某個 clip
 
 - [OmniVoice TTS 本地遷移](/hermes-memos/concepts/omnivoice-tts-migration/) — OmniVoice 兩階段架構
 - [NTU OmniVoice 自主產線 v4](/hermes-memos/concepts/ntu-omnivoice-full-production-run/) — OmniVoice 自主產線 v4 經驗
+- [NTU Ep002 製作與音頻修復](/hermes-memos/concepts/ntu-history-ep002-production/) — Ep002 音頻修復（48kHz 降頻 bug）
+- [NTU Ep003 製作啟動](/hermes-memos/concepts/ntu-history-ep003-production/) — Ep003 首個 OmniVoice 全流程
+- [BOYO 英文文法教學影片專案](/hermes-memos/concepts/boyo-english-grammar-video-project/) — BOYO 教學影片（共用 TTS 規範）
 - [[ffmpeg-concat-audio-stream-bug]] — FFmpeg concat demuxer 音頻流丟失根因分析
 
