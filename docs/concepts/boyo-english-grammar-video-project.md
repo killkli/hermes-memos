@@ -1,11 +1,12 @@
 ---
 title: BOYO 英文文法教學影片專案
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-05-08
 type: concept
 tags: [media-production, english-teaching, curriculum-design, video, script]
 sources:
   - sources/boyo-english-grammar-sessions-2026-04-28-29.md
+  - sources/sessions-2026-05-02-to-2026-05-08.md
 ---
 
 # BOYO 英文文法教學影片專案
@@ -24,6 +25,7 @@ sources:
 | TTS 引擎 | OmniVoice（正式路線） |
 | 總管線技能 | `educational-video-production-pipeline` |
 | 腳本技能 | `teaching-script-writer` + `english-grammar-teaching-script-style` |
+| YouTube Playlist | `PL0xKEhydN5PR5eu5VbaWU4e5X7lsRo7iV` |
 
 ## 教材拆分策略
 
@@ -71,12 +73,34 @@ Unit I-1（Be 動詞現在式）拆分為 4 堂課：
 - **TTS**：OmniVoice（teacher profile）
 - **影片組裝**：ffmpeg（需注意 concat demuxer 音頻流 bug — 無聲clip需加 `anullsrc`）
 
-## 教材拆分工作（2026-04-29）
+## Lessons 1-14 完成紀錄（2026-05-08 更新）
 
-用戶要求將三本 BOYO 教材按內部章節進行拆分：
-- Boyo English Grammar I → 按章節拆分為獨立 markdown 檔案
-- Boyo English Grammar II/III → 同理
-- 拆分後每個章節獨立，便於對應到單堂影片腳本
+> Lessons 1-14 全部完成並上傳 YouTube，Playlist: `PL0xKEhydN5PR5eu5VbaWU4e5X7lsRo7iV`
+
+### 技術解決方案
+
+| 問題 | 解法 |
+|------|------|
+| 4:3 → 16:9 比例不符 | PIL center-crop 裁切 |
+| 音頻流丟失 | `anullsrc` 防止無聲 clip 丟失音軌 |
+| 雙渲染模式 | MiniMax vs Native 兩種模式並存 |
+
+### YouTube 上傳
+
+- 批次上傳腳本自動化
+- Title 格式標準化
+- Playlist 孤兒清理（移除未歸屬影片）
+
+## Series III 視覺重設計
+
+> 2026-05-05 ~ 05-07 確立「Warm Academy / 暖白學院」風格方向。詳見 [BOYO Series III 視覺重設計](/hermes-memos/concepts/boyo-series-iii-visual-redesign/)。
+
+- 暖米白底 + 主題藍 + 暖橙點綴
+- 封面 Title-first 佈局
+- 課堂場景結構化頁面（左規則/右對話/底字幕區）
+- 開場圖卡 + 共用開場音樂（硬性規定）
+
+Series III 進度：III-1 ✅、III-2 ✅、III-3 ✅、III-4 待做
 
 ## 製作狀態
 
@@ -85,17 +109,18 @@ Unit I-1（Be 動詞現在式）拆分為 4 堂課：
 | 專案初始化 | ✅ 完成 |
 | 教材複製 | ✅ 完成 |
 | I-1 課程拆分 | ✅ 完成（4 課大綱） |
-| Lesson 1 大綱 | ✅ 完成（Generator+Evaluator 審查） |
-| Lesson 2 大綱 | ✅ 完成 |
-| Lesson 1-4 JSON 腳本 | ⏳ 待生成 |
-| 影像工具選擇 | ⏳ 待用戶決定 |
-| TTS / 影片組裝 | ⏳ 待執行 |
+| Lesson 1-4 JSON 腳本 | ✅ 完成 |
+| Lessons 1-14 上傳 YouTube | ✅ 完成 |
+| Series III Warm Academy 設計 | ✅ 定版 |
+| Series III-1 ~ III-3 | ✅ 完成 |
+| Series III-4 | ⏳ 待做 |
 
 ## 與其他專案的關係
 
 - 獨立於 NTU 南北朝歷史影片專案
 - 與國中教育會考題庫專案互補（同一目標受眾：國中生）
 - TTS 架構共用 OmniVoice 產線
+- 影片生成使用 [AI 影片生成實戰 — Seedance 2.0](/hermes-memos/concepts/ai-video-generation-seedance/)
 
 ## 相關頁面
 
@@ -103,3 +128,5 @@ Unit I-1（Be 動詞現在式）拆分為 4 堂課：
 - [OmniVoice TTS 本地遷移](/hermes-memos/concepts/omnivoice-tts-migration/) — OmniVoice 架構
 - [NTU OmniVoice 自主產線 v4](/hermes-memos/concepts/ntu-omnivoice-full-production-run/) — NTU 產線（可參考）
 - [Exam Question Bank QA System](/hermes-memos/concepts/exam-question-bank-qa-system/) — 國中會考題庫（同受眾）
+- [BOYO Series III 視覺重設計](/hermes-memos/concepts/boyo-series-iii-visual-redesign/) — Series III 視覺設計系統
+- [AI 影片生成實戰 — Seedance 2.0](/hermes-memos/concepts/ai-video-generation-seedance/) — Seedance 影片生成

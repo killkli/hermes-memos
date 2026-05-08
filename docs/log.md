@@ -1,3 +1,34 @@
+## [2026-05-08] digest | Batch Session Digest（05-02 ~ 05-08）
+
+### 範圍
+- 15 個 sessions，2026-05-02（含晨報）至 2026-05-08
+
+### 新增概念頁
+- **concepts/ai-video-generation-seedance.md** — Seedance 2.0 Fast 影片生成完整實戰知識；OpenRouter 影片 API、Token 計算公式、錨點機制、成本紀律、Prompt 技巧、4 個實戰案例
+- **concepts/comedy-short-video-production.md** — 邵氏武俠風搞笑短片泛化技能；Fast Intake Mode、9 種短片格式、Comedy Mechanism Palette、專業子代理人兩輪評估
+- **concepts/boyo-series-iii-visual-redesign.md** — BOYO Series III「Warm Academy / 暖白學院」視覺重設計；色彩方案、佈局系統、開場規範、III-1~III-3 完成
+
+### 新增 Source 頁
+- **sources/sessions-2026-05-02-to-2026-05-08.md** — 15 個 sessions 彙總，按主題分類
+
+### 更新既有頁面
+- **concepts/boyo-english-grammar-video-project.md** — 新增 Lessons 1-14 完成上傳 YouTube、PIL center-crop、anullsrc、雙渲染模式、批次上傳腳本、Series III Warm Academy 方向；bump updated → 2026-05-08
+- **concepts/ntu-history-ep002-production.md** — 新增 Ep002 五章腳本完成、Ep001 v4 重建上傳、24kHz 降頻 bug 根因確認；bump updated → 2026-05-08
+
+### Index 更新
+- Last updated: 2026-05-02 → 2026-05-08
+- Total pages: 85 → 89
+- Media Production 新增 3 條目（ai-video-generation-seedance, comedy-short-video-production, boyo-series-iii-visual-redesign）
+- Media Production 更新 2 條目（boyo-english-grammar-video-project, ntu-history-ep002-production）
+- Sources 新增 1 條目（sessions-2026-05-02-to-2026-05-08）
+
+## [2026-04-30] ingest | 台股晨報知識消化
+- Source: /Users/johnchen/.nanobot/workspace/notes/morning_reports/2026-04-30/產業晨報.md
+- Created: taiwan-industry-daily-2026-04-30.md
+- Updated: index.md（新增 2026-04-30 產業分析條目，保留最新 30 筆）
+- Updated: log.md（新增本次 ingest 紀錄）
+- Core findings: AI 基建主線延續但受惠集中於先進封裝/矽光/IDC；金融需提防中小企業信用風險；綠電需求真實但併網與長約才是獲利瓶頸；零售與航運資訊不足需保守追蹤。
+
 # Wiki Log
 
 > Chronological record of all wiki actions. Append-only.

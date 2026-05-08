@@ -1,11 +1,12 @@
 ---
 title: NTU 魏晉南北朝 Ep002 製作與音頻修復
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-05-08
 type: concept
 tags: [media-production, ntu-history, video, audio-fix, youtube]
 sources:
   - sources/ntu-history-ep002-ep003-sessions-2026-04-27-28.md
+  - sources/sessions-2026-05-02-to-2026-05-08.md
 ---
 
 # NTU 魏晉南北朝 Ep002 製作與音頻修復
@@ -24,6 +25,8 @@ Ep002（「天下分裂與西晉統一」）經歷了兩次上傳：初版因音
 | 2026-04-27 | 重建：從原始 WAV 重新提取 48kHz 音頻，重組 5 章 |
 | 2026-04-27 | 舊影片刪除，新版上傳（ID: `A02MHEO5qg4`） |
 | 2026-04-27 | 清理 ~330MB 中間檔案（PNG/WAV/舊 MP4） |
+| 2026-05-02+ | Ep002 五章腳本完成 |
+| 2026-05-02+ | Ep001 v4 重建上傳完成 |
 
 ## 根因分析：24kHz 降頻 Bug
 
@@ -37,6 +40,8 @@ Source WAV → [ffmpeg image+audio → MP4] → concat → final.mp4
 - **症狀**：人聲極低沉、像變聲器效果、幾乎無法辨識
 - **根因**：`ffmpeg -loop 1 -i image.png -i audio.wav -c:v libx264 ...` 組裝時未指定採樣率
 - **修復**：所有組裝指令強制加 `-ar 48000 -ac 1`
+
+> 24kHz 降頻 bug 已確認根因：ffmpeg 組裝中間 MP4 時未指定採樣率。48kHz 硬性要求已確立為產線標準。
 
 ## 修復方案
 
@@ -54,6 +59,7 @@ ffmpeg -loop 1 -i "${img}" -i "${audio}" \
 |------|----------|------|
 | 初版（24kHz bug） | `5PtSgvAupu0` | 已刪除 |
 | 重建版（48kHz 修復） | `A02MHEO5qg4` | 線上 |
+| Ep001 v4 重建 | — | ✅ 上傳完成 |
 
 ## 教訓與規則
 
@@ -62,6 +68,13 @@ ffmpeg -loop 1 -i "${img}" -i "${audio}" \
 3. **場景時長由音頻決定**：duration = audio_length + 1s lead，防止靜態沉默
 4. **標題卡恢復**：Ep002 意外省略了 Pillow 生成的金色標題卡，Ep003 起恢復
 5. **產後清理**：最終 MP4 驗證後刪除中間 PNG/WAV，每 EP 從 ~180MB 降至 ~20MB
+
+## 疑難排解
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| 聲音低沉含糊 | ffmpeg 組裝時未指定 `-ar 48000` | 強制加 `-ar 48000 -ac 1` |
+| 24kHz 降頻 | ffmpeg 預設採樣率過低 | 確認所有中間 MP4 均使用 48kHz |
 
 ## 相關頁面
 
