@@ -1,3 +1,12 @@
+---
+title: 教育會考題庫補正工作 Session（2026-04-24）
+created: 2026-04-24
+updated: 2026-04-24
+type: source
+tags: [exam-bank, english, taiwan-education, qa-system, ocr]
+sources: []
+---
+
 # 教育會考題庫補正工作 Session（2026-04-24）
 
 > 消化自 session `20260424_065223_28850ab7`（主工作）和 `20260423_125827_b2f0fe84`（初始化）

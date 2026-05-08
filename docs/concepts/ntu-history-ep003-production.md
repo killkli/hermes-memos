@@ -104,4 +104,4 @@ shared/characters/     ← teacher_a/b_ref.wav
 - [OmniVoice TTS 本地遷移](/hermes-memos/concepts/omnivoice-tts-migration/) — TTS 架構遷移
 - [TTS 語音處理新規則](/hermes-memos/concepts/tts-voice-processing-rules/) — 音頻處理規則
 - [NTU OmniVoice 自主產線 v4](/hermes-memos/concepts/ntu-omnivoice-full-production-run/) — 自主產線
-- [[educational-video-production-pipeline]] — 教育影片總管線
+- [[educational-video-production-pipeline]] (planned) — 教育影片總管線

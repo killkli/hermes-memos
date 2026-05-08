@@ -15,5 +15,5 @@ Person pages, place pages, organization pages, and thing pages.
 Every entity page should include:
 - Overview / what it is
 - Key facts and dates
-- Relationships to other entities ([[wikilinks]])
+- Relationships to other entities
 - Source references (to raw sources)

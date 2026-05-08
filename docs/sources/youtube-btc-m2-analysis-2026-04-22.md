@@ -1,15 +1,14 @@
+---
+title: YouTube — 比特幣到底解決什麼問題？(2026-04-22)
+created: 2026-04-22
+updated: 2026-04-22
+type: source
+tags: [youtube, bitcoin, m2-monetary-theory, blockchain-daily, transcript]
+sources: []
+---
+
 # Raw Source: YouTube — 比特幣到底解決什麼問題？(2026-04-22)
 
-## Metadata
-- **Source:** YouTube — 區塊鏈日報 Blockchain Daily
-- **URL:** https://www.youtube.com/watch?v=_iHaUFjDyz0
-- **Title:** 回歸初衷比特幣到底解決什麼問題?
-- **Duration:** 25分40秒
-- **Published:** 2026-04-22（2小時前發布）
-- **Channel:** 區塊鏈日報 Blockchain Daily（19.9萬訂閱）
-- **Transcript:** 51.48KB zh VTT subtitles（via yt-dlp）
-
----
 
 ## Core Thesis（影片核心論點）
 

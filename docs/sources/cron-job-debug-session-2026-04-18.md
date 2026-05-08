@@ -1,3 +1,12 @@
+---
+title: Cron Job Debug Session (2026-04-18)
+created: 2026-04-18
+updated: 2026-04-18
+type: source
+tags: [cron-job, debug, hermes, taiwan-music, rap]
+sources: []
+---
+
 # Raw Source: Cron Job Debug Session (2026-04-18)
 
 ## Session Metadata

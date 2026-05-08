@@ -110,7 +110,7 @@ tokens = (height × width × duration × 24) / 1024
 
 ## 相關頁面
 
-- [[openrouter-video-generation]] — OpenRouter 影片 API 概述
+- [[seedance]] (planned) — Seedance AI video generation overview
 - [BOYO 英文文法教學影片專案](/hermes-memos/concepts/boyo-english-grammar-video-project/) — BOYO 專案影片產線
 - [搞笑短片創作技能](/hermes-memos/concepts/comedy-short-video-production/) — 搞笑短片技能
 - [Harness Pattern](/hermes-memos/concepts/harness-pattern/) — Generator + Evaluator 審查架構

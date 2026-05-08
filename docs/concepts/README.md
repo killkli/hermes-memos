@@ -16,4 +16,4 @@ Every concept page should include:
 - Definition / explanation
 - Current state of knowledge
 - Open questions or debates
-- Related concepts ([[wikilinks]])
+- Related concepts

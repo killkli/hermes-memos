@@ -98,5 +98,5 @@ concat demuxer 要求所有 clip 有一緋的音頻流配置。如果某個 clip
 - [NTU Ep002 製作與音頻修復](/hermes-memos/concepts/ntu-history-ep002-production/) — Ep002 音頻修復（48kHz 降頻 bug）
 - [NTU Ep003 製作啟動](/hermes-memos/concepts/ntu-history-ep003-production/) — Ep003 首個 OmniVoice 全流程
 - [BOYO 英文文法教學影片專案](/hermes-memos/concepts/boyo-english-grammar-video-project/) — BOYO 教學影片（共用 TTS 規範）
-- [[ffmpeg-concat-audio-stream-bug]] — FFmpeg concat demuxer 音頻流丟失根因分析
+- [[media/ffmpeg-concat-audio-stream-bug]] (planned) — FFmpeg concat demuxer 音頻流丟失根因分析
 

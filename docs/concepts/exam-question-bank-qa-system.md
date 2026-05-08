@@ -1,3 +1,12 @@
+---
+title: 國中教育會考題庫補正系統
+created: 2026-04-23
+updated: 2026-04-24
+type: concept
+tags: [exam-system, taiwan-education, qa-pipeline, ocr, tw-exam-bank]
+sources: []
+---
+
 # 國中教育會考題庫補正系統
 
 > 三代理人 QA Pipeline — 適用於 OCR 輸出題庫的結構化補正流程

@@ -1,3 +1,12 @@
+---
+title: 在日印度勞動力統計 — 原始資料彙編
+created: 2026-04-14
+updated: 2026-04-14
+type: source
+tags: [japan, india, labor-statistics, immigration, foreign-workers]
+sources: []
+---
+
 # 在日印度勞動力統計 — 原始資料彙編
 
 **入庫日期：** 2026-04-14

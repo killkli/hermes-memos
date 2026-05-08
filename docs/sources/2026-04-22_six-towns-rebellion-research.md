@@ -1,3 +1,12 @@
+---
+title: 六鎮之亂動員機制研究
+created: 2026-04-22
+updated: 2026-04-22
+type: source
+tags: [six-towns-rebellion, military-history, china-history, military-anthropology]
+sources: []
+---
+
 # 六鎮之亂動員機制研究
 
 **專案時間**：2026-04-22

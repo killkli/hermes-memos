@@ -57,9 +57,9 @@ Raw Sources (Layer 1) → Wiki (Layer 2) → Schema (Layer 3)
 
 ## Related Concepts
 
-- [[memory-consolidation]] — Memory as compact form, wiki as expanded form (planned page)
-- [[knowledge-graph]] — Graph-structured knowledge representation (planned page)
-- [[rag]] — Traditional retrieval approach (contrast, planned page)
+- [[memory-consolidation]] (planned) — Memory as compact form, wiki as expanded form
+- [[knowledge-graph]] (planned) — Graph-structured knowledge representation
+- [[rag]] (planned) — Traditional retrieval approach (contrast)
 
 ## See Also
 

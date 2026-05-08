@@ -1,7 +1,7 @@
 ---
 title: John Chen (User)
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-05-08
 type: entity
 tags: [person, user]
 ---
@@ -49,5 +49,7 @@ See [Reflection Session 2026-04-16](/hermes-memos/concepts/reflection-session-20
 
 ## Missing Configuration
 
-- `TELEGRAM_BOT_TOKEN` — for cron job notifications
-- `TELEGRAM_CHAT_ID` — delivery target
+> Skills referenced below are planned for future setup.
+
+- `TELEGRAM_BOT_TOKEN` — for cron job notifications (planned)
+- `TELEGRAM_CHAT_ID` — delivery target (planned)

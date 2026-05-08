@@ -1,3 +1,12 @@
+---
+title: 台灣每週新聞領域分類分析 — 2026-W17
+created: 2026-04-22
+updated: 2026-04-22
+type: source
+tags: [taiwan-news, weekly-analysis, news-digest, W17, 2026-04]
+sources: [~/.hermes/taiwan-weekly-edu/2026-04-W17/01_collected_news.json]
+---
+
 # 台灣每週新聞領域分類分析 — 2026-W17
 
 **入庫日期**：2026-04-22

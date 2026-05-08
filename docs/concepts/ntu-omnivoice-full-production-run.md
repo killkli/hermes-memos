@@ -111,6 +111,6 @@ sources: [2026-04-28 OmniVoice full autonomous production session]
 
 - [OmniVoice TTS 本地遷移](/hermes-memos/concepts/omnivoice-tts-migration/) — OmniVoice 兩階段架構
 - [TTS 語音處理新規則](/hermes-memos/concepts/tts-voice-processing-rules/) — TTS 語音處理新規則
-- [[educational-video-production-pipeline]] — 教育影片總管線
-- [[ntu-history-episode-video-pipeline]] — NTU 單集影片製作技能
+- [[educational-video-production-pipeline]] (planned) — 教育影片總管線
+- [[ntu-history-episode-video-pipeline]] (planned) — NTU 單集影片製作技能
 

@@ -86,6 +86,6 @@ Cron 環境中執行的瀏覽器 session 可能與前台登入狀態衝突，導
 
 ## 關聯技能
 
-- [[threads-login]] — Threads 登入專用技能
-- [[threads-content-browsing]] — Threads 內容瀏覽與報告生成技能
+- [[threads-login]] (planned) — Threads 登入專用技能
+- [[threads-content-browsing]] (planned) — Threads 內容瀏覽與報告生成技能
 

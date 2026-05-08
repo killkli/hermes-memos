@@ -1,14 +1,14 @@
+---
+title: 比特幣 M2 貨幣理論：奧派敘事 vs 經濟學批判
+created: 2026-04-22
+updated: 2026-04-22
+type: concept
+tags: [bitcoin, monetary-theory, m2, economics-critique, austrian-school]
+sources: [sources/youtube-btc-m2-analysis-2026-04-22.md, sources/econ-analysis-btc-m2-critique-2026-04-22.md]
+---
+
 # 比特幣 M2 貨幣理論：奧派敘事 vs 經濟學批判
 
-## Metadata
-- **Status:** #ingested
-- **Type:** concept
-- **Sources:** 
-  - youtube-btc-m2-analysis-2026-04-22
-  - econ-analysis-btc-m2-critique-2026-04-22
-- **Related:** monetary-theory, inflation-hedging, bitcoin-critique
-
----
 
 ## 問題陳述
 

@@ -1,3 +1,12 @@
+---
+title: Cron YouTube Upload Integration Session (2026-04-16)
+created: 2026-04-16
+updated: 2026-04-16
+type: source
+tags: [youtube-upload, cron-job, integration, minimax-music, taiwan-music]
+sources: []
+---
+
 # Raw Source: Cron YouTube Upload Integration Session
 
 > Date: 2026-04-16

@@ -271,3 +271,14 @@
 - Concept: bitcoin-m2-monetary-theory — 奧派敘事 vs 經濟學批判對照；鮑莫爾成本病；機構集中化矛盾；選美理論
 - Key finding: BTC 2022 通膨高峰期暴跌 78%，比特幣避險屬性學術證據薄弱
 - Added to Finance & Economics section in index
+
+## [2026-05-08] reorganize | Wiki directory structure cleanup
+
+- Moved 41 files: 36 taiwan-industry-daily-*.md → sources/taiwan-stock/{2026-03,2026-04,2026-05}/
+- Moved hormuz-crisis-2026-04-13.md → sources/geopolitical/hormuz-crisis-2026-04-13.md
+- Created 3 monthly index pages: 2026-03-monthly.md, 2026-04-monthly.md (316 lines), 2026-05-monthly.md (just created)
+- Fixed 15 broken wikilinks across 11 concept pages
+- Restructured index.md: 158 lines → 107 lines, 11 subsections → 6 sections
+- Added frontmatter to 16 files previously missing it
+- Total pages: 89 (reorganized, not added)
+- New directory structure: sources/taiwan-stock/{2026-03,2026-04,2026-05}/ + sources/geopolitical/

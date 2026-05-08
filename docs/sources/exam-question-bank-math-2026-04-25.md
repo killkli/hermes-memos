@@ -1,3 +1,12 @@
+---
+title: 教育會考數學科題庫工作 Session（2026-04-25）
+created: 2026-04-25
+updated: 2026-04-25
+type: source
+tags: [exam-bank, math, taiwan-education, latex, katex]
+sources: []
+---
+
 # 教育會考數學科題庫工作 Session（2026-04-25）
 
 > 消化自 session（數學科題庫網站建立 + LaTeX 驗證修正）

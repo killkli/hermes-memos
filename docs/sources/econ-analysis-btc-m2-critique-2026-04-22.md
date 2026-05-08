@@ -1,12 +1,14 @@
+---
+title: 經濟學分析——比特幣對抗 M2 論點的批判 (2026-04-22)
+created: 2026-04-22
+updated: 2026-04-22
+type: source
+tags: [bitcoin, m2, economics-critique, austrian-school, monetary-theory]
+sources: [sources/youtube-btc-m2-analysis-2026-04-22.md]
+---
+
 # Raw Source: 經濟學分析——比特幣對抗 M2 論點的批判 (2026-04-22)
 
-## Metadata
-- **Author:** John Chen（透過 Hermes Agent 研究後撰寫）
-- **Date:** 2026-04-22
-- **Source:** 基於當日 YouTube 影片內容（區塊鏈日報）的獨立經濟學分析
-- **Context:** 用戶對加密貨幣YouTube頻道內容的主動求證與批判
-
----
 
 ## 分析總評
 

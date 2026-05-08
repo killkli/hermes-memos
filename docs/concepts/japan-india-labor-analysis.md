@@ -88,8 +88,8 @@ Researcher → 基於可驗證數據，產出修正結論
 ## 6. 相關概念頁
 
 - [Harness Pattern](/hermes-memos/concepts/harness-pattern/) — Generator + Evaluator 模式
-- [[data-verification-matrix]] — 本案例衍生的驗證矩陣方法 (planned page)
-- [[bias-taxonomy-statistical]] — 統計偏誤分類學 (planned page)
+- [[data-verification-matrix]] (planned) — 本案例衍生的驗證矩陣方法
+- [[bias-taxonomy-statistical]] (planned) — 統計偏誤分類學
 
 ## 7. 標籤
 

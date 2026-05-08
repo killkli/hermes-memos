@@ -1,3 +1,12 @@
+---
+title: Taiwan Daily Music Cron — 2026-04-22 Full Success
+created: 2026-04-22
+updated: 2026-04-22
+type: source
+tags: [taiwan-daily-music, cron-job, rap, youtube-upload, minimax-music]
+sources: []
+---
+
 # Raw Source: Taiwan Daily Music Cron — 2026-04-22 Full Success
 
 ## Session Metadata

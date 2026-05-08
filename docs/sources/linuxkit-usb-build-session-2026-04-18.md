@@ -1,3 +1,12 @@
+---
+title: LinuxKit USB Build Session (2026-04-18)
+created: 2026-04-18
+updated: 2026-04-18
+type: source
+tags: [linuxkit, usb-build, hermes-agent, docker, hardware]
+sources: []
+---
+
 # Raw Source: LinuxKit USB Build Session (2026-04-18)
 
 ## Session Metadata
